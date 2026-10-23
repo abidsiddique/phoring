@@ -288,17 +288,11 @@ word_table(m1, m2, m3,
 
 ## Installation
 
-You can install the development version of **phoring** directly from GitHub:
+You can install **phoring** directly from GitHub:
 
 ```r
 # install.packages("remotes")
 remotes::install_github("abidsiddique/phoring")
-```
-
-Once published on CRAN, install the official release version using:
-
-```r
-install.packages("phoring")
 ```
 
 ---
