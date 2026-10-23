@@ -23,5 +23,5 @@ Invisibly returns \code{x}.
 Generates an academic publication-grade Granger causality suite:
 (1) \code{"timeseries"}: Standardized time series trajectories,
 (2) \code{"ccf"}: Cross-correlation function (CCF) across leads and lags,
-(3) \code{"f_stats"}: Bidirectional F-statistic comparison vs. 5% critical F value.
+(3) \code{"f_stats"}: Bidirectional F-statistic comparison vs. 5\% critical F value.
 }

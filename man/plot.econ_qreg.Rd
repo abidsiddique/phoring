@@ -29,8 +29,8 @@ Invisibly returns \code{x}.
 }
 \description{
 Generates an academic publication-grade quantile process suite:
-(1) \code{"process"}: Coefficient path \eqn{\hat{\beta}(\tau)} across quantiles \eqn{\tau} with 95% pointwise CI band,
-    alongside the horizontal OLS benchmark estimate and 95% confidence interval,
+(1) \code{"process"}: Coefficient path \eqn{\hat{\beta}(\tau)} across quantiles \eqn{\tau} with 95\% pointwise CI band,
+    alongside the horizontal OLS benchmark estimate and 95\% confidence interval,
 (2) \code{"loss"}: Total check-loss across quantiles \eqn{\tau},
 (3) \code{"fitted_scatter"}: Scatter of outcome vs. predictor with fitted quantile lines.
 }

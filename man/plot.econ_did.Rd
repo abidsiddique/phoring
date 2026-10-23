@@ -27,7 +27,7 @@ Invisibly returns \code{x}.
 \description{
 Generates an academic publication-grade DiD suite:
 (1) \code{"trajectory"}: 2x2 Pre/Post trajectories with treatment effect counterfactual,
-(2) \code{"means_ci"}: 2x2 Cell group means with 95% confidence intervals,
+(2) \code{"means_ci"}: 2x2 Cell group means with 95\% confidence intervals,
 (3) \code{"comparison"}: DiD estimate comparison vs. naive post-only and pre/post estimates,
 (4) \code{"event_study"}: Group averages over calendar time and event-study dynamics.
 }

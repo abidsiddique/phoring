@@ -22,5 +22,5 @@ Invisibly returns \code{x}.
 \description{
 Generates an academic publication-grade Chow structural stability suite:
 (1) \code{"scatter"}: Outcome vs. predictor scatter showing separate subgroup regression slopes vs. pooled line,
-(2) \code{"f_stat"}: Chow F-statistic comparison vs. 5% critical F value.
+(2) \code{"f_stat"}: Chow F-statistic comparison vs. 5\% critical F value.
 }

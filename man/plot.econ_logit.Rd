@@ -35,6 +35,6 @@ Generates an academic publication-grade classification and link diagnostics suit
 (5) \code{"calibration"}: Hosmer-Lemeshow decile calibration plot with 45-degree reference line,
 (6) \code{"thresholds"}: Sensitivity & Specificity curves vs. cutoff with Youden's optimal threshold,
 (7) \code{"marginal"}: Marginal probability curve across continuous predictor,
-(8) \code{"odds_ratio"}: Odds ratios forest plot (for logit) with 95% CIs on log scale,
+(8) \code{"odds_ratio"}: Odds ratios forest plot (for logit) with 95\% CIs on log scale,
 (9) \code{"confusion"}: Confusion matrix classification tile heatmap at threshold 0.5.
 }

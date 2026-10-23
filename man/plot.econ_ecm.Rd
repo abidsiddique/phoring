@@ -32,7 +32,7 @@ Generates an academic publication-grade ECM dynamics suite:
 (2) \code{"residuals"}: ECM dynamic residuals,
 (3) \code{"decay_path"}: Speed of adjustment disequilibrium decay path \eqn{(1 + \alpha)^h},
 (4) \code{"acf_residuals"}: Autocorrelation function of ECM residuals,
-(5) \code{"cusum"}: CUSUM parameter stability test with 5% bounds,
-(6) \code{"cusum_sq"}: CUSUM of squares stability test with 5% bounds,
+(5) \code{"cusum"}: CUSUM parameter stability test with 5\% bounds,
+(6) \code{"cusum_sq"}: CUSUM of squares stability test with 5\% bounds,
 (7) \code{"stability"}: Side-by-side CUSUM and CUSUMSQ stability panel.
 }

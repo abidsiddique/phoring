@@ -973,7 +973,7 @@ plot.econ_iv <- function(x, y = NULL, which = c("all", "first_stage", "second_st
 #' (5) \code{"calibration"}: Hosmer-Lemeshow decile calibration plot with 45-degree reference line,
 #' (6) \code{"thresholds"}: Sensitivity & Specificity curves vs. cutoff with Youden's optimal threshold,
 #' (7) \code{"marginal"}: Marginal probability curve across continuous predictor,
-#' (8) \code{"odds_ratio"}: Odds ratios forest plot (for logit) with 95% CIs on log scale,
+#' (8) \code{"odds_ratio"}: Odds ratios forest plot (for logit) with 95\% CIs on log scale,
 #' (9) \code{"confusion"}: Confusion matrix classification tile heatmap at threshold 0.5.
 #'
 #' @param x An object of class \code{econ_logit}.
@@ -1501,7 +1501,7 @@ plot.econ_count <- function(x, y = NULL, which = c("all", "rootogram", "freq_bar
 #'
 #' Generates an academic publication-grade DiD suite:
 #' (1) \code{"trajectory"}: 2x2 Pre/Post trajectories with treatment effect counterfactual,
-#' (2) \code{"means_ci"}: 2x2 Cell group means with 95% confidence intervals,
+#' (2) \code{"means_ci"}: 2x2 Cell group means with 95\% confidence intervals,
 #' (3) \code{"comparison"}: DiD estimate comparison vs. naive post-only and pre/post estimates,
 #' (4) \code{"event_study"}: Group averages over calendar time and event-study dynamics.
 #'
@@ -1695,7 +1695,7 @@ plot.econ_did <- function(x, y = NULL, which = c("all", "trajectory", "means_ci"
 #' Plot Sharp Regression Discontinuity (RDD) Diagnostics
 #'
 #' Generates an academic publication-grade RDD identification suite:
-#' (1) \code{"binned_rd"}: Binned RD scatter plot with local polynomial fits and 95% confidence bands,
+#' (1) \code{"binned_rd"}: Binned RD scatter plot with local polynomial fits and 95\% confidence bands,
 #' (2) \code{"density"}: Running variable density histogram with discontinuity check around cutoff,
 #' (3) \code{"bandwidth_sensitivity"}: Point estimate \eqn{\hat{\tau} \pm 95\%} CI across bandwidths,
 #' (4) \code{"placebo"}: Placebo cutoff falsification test.
@@ -1888,8 +1888,8 @@ plot.econ_rdd <- function(x, y = NULL, which = c("all", "binned_rd", "density",
 #' Plot Quantile Regression Process
 #'
 #' Generates an academic publication-grade quantile process suite:
-#' (1) \code{"process"}: Coefficient path \eqn{\hat{\beta}(\tau)} across quantiles \eqn{\tau} with 95% pointwise CI band,
-#'     alongside the horizontal OLS benchmark estimate and 95% confidence interval,
+#' (1) \code{"process"}: Coefficient path \eqn{\hat{\beta}(\tau)} across quantiles \eqn{\tau} with 95\% pointwise CI band,
+#'     alongside the horizontal OLS benchmark estimate and 95\% confidence interval,
 #' (2) \code{"loss"}: Total check-loss across quantiles \eqn{\tau},
 #' (3) \code{"fitted_scatter"}: Scatter of outcome vs. predictor with fitted quantile lines.
 #'
@@ -2223,7 +2223,7 @@ plot.econ_var <- function(x, y = NULL, which = c("all", "stability", "irf", "fev
 #' (3) \code{"acf_levels"}: Autocorrelation of levels,
 #' (4) \code{"acf_diffs"}: Autocorrelation of first differences,
 #' (5) \code{"pacf"}: Partial autocorrelations of levels and differences,
-#' (6) \code{"dashboard"}: Test statistic dashboard (ADF, PP, KPSS vs. 5% critical values).
+#' (6) \code{"dashboard"}: Test statistic dashboard (ADF, PP, KPSS vs. 5\% critical values).
 #'
 #' @param x An object of class \code{econ_unit_root}.
 #' @param y Unused, for compatibility with generic.
@@ -2409,7 +2409,7 @@ plot.econ_coint <- function(x, y = NULL, which = c("all", "comovement", "residua
 #' Generates an academic publication-grade Granger causality suite:
 #' (1) \code{"timeseries"}: Standardized time series trajectories,
 #' (2) \code{"ccf"}: Cross-correlation function (CCF) across leads and lags,
-#' (3) \code{"f_stats"}: Bidirectional F-statistic comparison vs. 5% critical F value.
+#' (3) \code{"f_stats"}: Bidirectional F-statistic comparison vs. 5\% critical F value.
 #'
 #' @param x An object of class \code{econ_granger}.
 #' @param y Unused, for compatibility with generic.
@@ -2597,8 +2597,8 @@ plot.econ_arch <- function(x, y = NULL, which = c("all", "residuals", "squared_r
 #' (3) \code{"residuals"}: ARDL residuals over time,
 #' (4) \code{"acf"}: Autocorrelation of residuals,
 #' (5) \code{"multipliers"}: Short-run impact vs. long-run multiplier bar comparison,
-#' (6) \code{"cusum"}: CUSUM parameter stability test with 5% critical bounds,
-#' (7) \code{"cusum_sq"} / \code{"cusum_squares"}: Brown-Durbin-Evans CUSUM of squares variance & parameter stability test with 5% critical bounds,
+#' (6) \code{"cusum"}: CUSUM parameter stability test with 5\% critical bounds,
+#' (7) \code{"cusum_sq"} / \code{"cusum_squares"}: Brown-Durbin-Evans CUSUM of squares variance & parameter stability test with 5\% critical bounds,
 #' (8) \code{"stability"}: Side-by-side CUSUM and CUSUM of squares stability panel,
 #' (9) \code{"bounds"}: Pesaran-Shin-Smith (2001) Bounds Testing cointegration diagnostic diagram,
 #' (10) \code{"cumulative_multipliers"}: Cumulative interim dynamic multiplier curve.
@@ -2855,8 +2855,8 @@ plot.econ_prais <- function(x, y = NULL, which = c("all", "fitted", "residuals",
 #' (2) \code{"residuals"}: ECM dynamic residuals,
 #' (3) \code{"decay_path"}: Speed of adjustment disequilibrium decay path \eqn{(1 + \alpha)^h},
 #' (4) \code{"acf_residuals"}: Autocorrelation function of ECM residuals,
-#' (5) \code{"cusum"}: CUSUM parameter stability test with 5% bounds,
-#' (6) \code{"cusum_sq"}: CUSUM of squares stability test with 5% bounds,
+#' (5) \code{"cusum"}: CUSUM parameter stability test with 5\% bounds,
+#' (6) \code{"cusum_sq"}: CUSUM of squares stability test with 5\% bounds,
 #' (7) \code{"stability"}: Side-by-side CUSUM and CUSUMSQ stability panel.
 #'
 #' @param x An object of class \code{econ_ecm}.
@@ -3282,7 +3282,7 @@ plot.econ_gq <- function(x, y = NULL, which = c("all", "residuals", "distributio
 #'
 #' Generates an academic publication-grade Chow structural stability suite:
 #' (1) \code{"scatter"}: Outcome vs. predictor scatter showing separate subgroup regression slopes vs. pooled line,
-#' (2) \code{"f_stat"}: Chow F-statistic comparison vs. 5% critical F value.
+#' (2) \code{"f_stat"}: Chow F-statistic comparison vs. 5\% critical F value.
 #'
 #' @param x An object of class \code{econ_chow}.
 #' @param y Unused, for compatibility with generic.

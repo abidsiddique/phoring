@@ -31,5 +31,5 @@ Generates an academic publication-grade time-series stationarity suite:
 (3) \code{"acf_levels"}: Autocorrelation of levels,
 (4) \code{"acf_diffs"}: Autocorrelation of first differences,
 (5) \code{"pacf"}: Partial autocorrelations of levels and differences,
-(6) \code{"dashboard"}: Test statistic dashboard (ADF, PP, KPSS vs. 5% critical values).
+(6) \code{"dashboard"}: Test statistic dashboard (ADF, PP, KPSS vs. 5\% critical values).
 }

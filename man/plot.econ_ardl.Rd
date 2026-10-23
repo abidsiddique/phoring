@@ -33,8 +33,8 @@ Generates an academic publication-grade ARDL dynamics suite:
 (3) \code{"residuals"}: ARDL residuals over time,
 (4) \code{"acf"}: Autocorrelation of residuals,
 (5) \code{"multipliers"}: Short-run impact vs. long-run multiplier bar comparison,
-(6) \code{"cusum"}: CUSUM parameter stability test with 5% critical bounds,
-(7) \code{"cusum_sq"} / \code{"cusum_squares"}: Brown-Durbin-Evans CUSUM of squares variance & parameter stability test with 5% critical bounds,
+(6) \code{"cusum"}: CUSUM parameter stability test with 5\% critical bounds,
+(7) \code{"cusum_sq"} / \code{"cusum_squares"}: Brown-Durbin-Evans CUSUM of squares variance & parameter stability test with 5\% critical bounds,
 (8) \code{"stability"}: Side-by-side CUSUM and CUSUM of squares stability panel,
 (9) \code{"bounds"}: Pesaran-Shin-Smith (2001) Bounds Testing cointegration diagnostic diagram,
 (10) \code{"cumulative_multipliers"}: Cumulative interim dynamic multiplier curve.

@@ -26,7 +26,7 @@ Invisibly returns \code{x}.
 }
 \description{
 Generates an academic publication-grade RDD identification suite:
-(1) \code{"binned_rd"}: Binned RD scatter plot with local polynomial fits and 95% confidence bands,
+(1) \code{"binned_rd"}: Binned RD scatter plot with local polynomial fits and 95\% confidence bands,
 (2) \code{"density"}: Running variable density histogram with discontinuity check around cutoff,
 (3) \code{"bandwidth_sensitivity"}: Point estimate \eqn{\hat{\tau} \pm 95\%} CI across bandwidths,
 (4) \code{"placebo"}: Placebo cutoff falsification test.
