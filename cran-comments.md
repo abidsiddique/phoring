@@ -10,7 +10,7 @@ This is a new submission.
 ### R CMD check results
 There were 0 ERRORs, 0 WARNINGs, 0 unexpected NOTEs.
 
-* Note on GitHub URL: Repository will be made public upon CRAN publication.
+* Note on GitHub URL: Repository is public and active at https://github.com/abidsiddique/phoring.
 * Note on Pandoc: Standard note when checking without pandoc installed locally.
 
 ### Notes on Package Architecture
