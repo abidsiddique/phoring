@@ -31,7 +31,7 @@ Generates an academic publication-grade panel diagnostics suite or individual pl
 (1) \code{"between"}: Between-entity variation in group means with between regression line,
 (2) \code{"within"}: Within-entity demeaned scatter with within regression slope,
 (3) \code{"spaghetti"}: Entity trajectories over time with mean trend,
-(4) \code{"fe_dist"}: Distribution of estimated individual fixed effects \eqn{\hat{lpha}_i},
+(4) \code{"fe_dist"}: Distribution of estimated individual fixed effects \eqn{\hat{\alpha}_i},
 (5) \code{"heterogeneity"}: Individual entity residual boxplots,
 (6) \code{"residuals"}: Panel residuals vs. fitted values with LOESS smoother,
 (7) \code{"ar_residual"}: Residual vs. lagged within-entity residual \eqn{e_{i,t}} vs \eqn{e_{i,t-1}} (Wooldridge AR(1) test),

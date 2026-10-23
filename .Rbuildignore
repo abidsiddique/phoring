@@ -12,3 +12,6 @@
 ^rules$
 ^scratch.*$
 ^Rplots\.pdf$
+^\.agents$
+^\.DS_Store$
+^\.vscode$

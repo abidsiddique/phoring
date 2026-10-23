@@ -30,5 +30,5 @@ Generates an academic publication-grade count regression diagnostic suite:
 (2) \code{"freq_bars"}: Grouped bar comparison of observed vs. expected counts,
 (3) \code{"mean_variance"}: Binned mean vs. variance curve (testing equidispersion),
 (4) \code{"residuals"}: Pearson residuals vs. fitted counts,
-(5) \code{"irr_forest"}: Incidence Rate Ratio (IRR) forest plot \eqn{\exp(eta) \pm 95\%} CI.
+(5) \code{"irr_forest"}: Incidence Rate Ratio (IRR) forest plot \eqn{\exp(\beta) \pm 95\%} CI.
 }

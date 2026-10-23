@@ -575,7 +575,7 @@ plot.econ_reg <- function(x, y = NULL, which = c("all", "resid_fitted", "qq", "s
 #' (1) \code{"between"}: Between-entity variation in group means with between regression line,
 #' (2) \code{"within"}: Within-entity demeaned scatter with within regression slope,
 #' (3) \code{"spaghetti"}: Entity trajectories over time with mean trend,
-#' (4) \code{"fe_dist"}: Distribution of estimated individual fixed effects \eqn{\hat{lpha}_i},
+#' (4) \code{"fe_dist"}: Distribution of estimated individual fixed effects \eqn{\hat{\alpha}_i},
 #' (5) \code{"heterogeneity"}: Individual entity residual boxplots,
 #' (6) \code{"residuals"}: Panel residuals vs. fitted values with LOESS smoother,
 #' (7) \code{"ar_residual"}: Residual vs. lagged within-entity residual \eqn{e_{i,t}} vs \eqn{e_{i,t-1}} (Wooldridge AR(1) test),
@@ -1343,7 +1343,7 @@ plot.econ_tobit <- function(x, y = NULL, which = c("all", "observed_hist", "pred
 #' (2) \code{"freq_bars"}: Grouped bar comparison of observed vs. expected counts,
 #' (3) \code{"mean_variance"}: Binned mean vs. variance curve (testing equidispersion),
 #' (4) \code{"residuals"}: Pearson residuals vs. fitted counts,
-#' (5) \code{"irr_forest"}: Incidence Rate Ratio (IRR) forest plot \eqn{\exp(eta) \pm 95\%} CI.
+#' (5) \code{"irr_forest"}: Incidence Rate Ratio (IRR) forest plot \eqn{\exp(\beta) \pm 95\%} CI.
 #'
 #' @param x An object of class \code{econ_count}.
 #' @param y Unused, for compatibility with generic.
@@ -1697,7 +1697,7 @@ plot.econ_did <- function(x, y = NULL, which = c("all", "trajectory", "means_ci"
 #' Generates an academic publication-grade RDD identification suite:
 #' (1) \code{"binned_rd"}: Binned RD scatter plot with local polynomial fits and 95% confidence bands,
 #' (2) \code{"density"}: Running variable density histogram with discontinuity check around cutoff,
-#' (3) \code{"bandwidth_sensitivity"}: Point estimate \eqn{\hat{	au} \pm 95\%} CI across bandwidths,
+#' (3) \code{"bandwidth_sensitivity"}: Point estimate \eqn{\hat{\tau} \pm 95\%} CI across bandwidths,
 #' (4) \code{"placebo"}: Placebo cutoff falsification test.
 #'
 #' @param x An object of class \code{econ_rdd}.
@@ -1888,9 +1888,9 @@ plot.econ_rdd <- function(x, y = NULL, which = c("all", "binned_rd", "density",
 #' Plot Quantile Regression Process
 #'
 #' Generates an academic publication-grade quantile process suite:
-#' (1) \code{"process"}: Coefficient path \eqn{\hat{eta}(	au)} across quantiles \eqn{	au} with 95% pointwise CI band,
+#' (1) \code{"process"}: Coefficient path \eqn{\hat{\beta}(\tau)} across quantiles \eqn{\tau} with 95% pointwise CI band,
 #'     alongside the horizontal OLS benchmark estimate and 95% confidence interval,
-#' (2) \code{"loss"}: Total check-loss across quantiles \eqn{	au},
+#' (2) \code{"loss"}: Total check-loss across quantiles \eqn{\tau},
 #' (3) \code{"fitted_scatter"}: Scatter of outcome vs. predictor with fitted quantile lines.
 #'
 #' @param x An object of class \code{econ_qreg}.
