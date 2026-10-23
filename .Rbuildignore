@@ -1,0 +1,14 @@
+^.*\.Rproj$
+^\.Rproj\.user$
+^.*\.Rcheck$
+^phoring\.Rcheck$
+^\.\.Rcheck$
+^Gujrati\.pdf$
+^.*\.tar\.gz$
+^.*\.docx$
+^demo_.*\.R$
+^\.gitignore$
+^cran-comments\.md$
+^rules$
+^scratch.*$
+^Rplots\.pdf$

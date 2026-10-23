@@ -1,0 +1,12 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+*.Rcheck/
+..Rcheck/
+*.tar.gz
+Gujrati.pdf
+*.docx
+demo_phoring_all_features.R
+rules/
+.DS_Store

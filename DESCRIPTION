@@ -1,0 +1,38 @@
+Package: phoring
+Type: Package
+Title: Unified Econometric Estimation, Specification Testing, and Diagnostics
+Version: 0.1.0
+Authors@R: person("Md. Abid Siddique", "Emon", 
+                  email = "contact.abidsiddique@gmail.com", 
+                  role = c("aut", "cre"),
+                  comment = c(ORCID = "0009-0007-6576-027X"))
+Description: A unified econometric toolkit providing automated specification 
+    testing, robust covariance estimation, and publication-grade academic 
+    visualizations. Implements ordinary and weighted least squares with robust, 
+    cluster-robust, and heteroskedasticity and autocorrelation consistent (HAC) 
+    standard errors; instrumental variables two-stage least squares (2SLS); panel 
+    data estimators (within fixed effects, two-way fixed effects, random effects 
+    GLS, first differences); binary response models (logit and probit with average 
+    marginal effects); tobit censored regression; count models (Poisson and negative 
+    binomial); causal inference methods (difference-in-differences, sharp regression 
+    discontinuity); quantile regression; dynamic time series models (autoregressive 
+    distributed lag, Koyck distributed lag, Prais-Winsten AR(1), error correction 
+    models, vector autoregression); and time series unit root batteries (augmented 
+    Dickey-Fuller, Phillips-Perron, KPSS, Engle-Granger cointegration, Granger 
+    causality, ARCH). Estimation routines integrate comprehensive diagnostic 
+    batteries, parameter stability tests, and academic visualizations with zero 
+    external package dependencies.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Depends:
+    R (>= 3.5.0)
+Imports:
+    graphics,
+    grDevices,
+    stats
+Suggests:
+    testthat (>= 3.0.0)
+URL: https://github.com/abidsiddique/phoring
+BugReports: https://github.com/abidsiddique/phoring/issues
+Config/roxygen2/version: 8.0.0
