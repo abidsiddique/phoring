@@ -1,7 +1,6 @@
 # phoring
 
 [![CRAN status](https://www.r-pkg.org/badges/version/phoring)](https://CRAN.R-project.org/package=phoring)
-[![CRAN downloads](https://cranlogs.r-pkg.org/badges/phoring)](https://CRAN.R-project.org/package=phoring)
 [![DOI](https://img.shields.io/badge/DOI-10.32614%2FCRAN.package.phoring-blue.svg)](https://doi.org/10.32614/CRAN.package.phoring)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
