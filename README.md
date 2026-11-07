@@ -1,5 +1,10 @@
 # phoring
 
+[![CRAN status](https://www.r-pkg.org/badges/version/phoring)](https://CRAN.R-project.org/package=phoring)
+[![CRAN downloads](https://cranlogs.r-pkg.org/badges/phoring)](https://CRAN.R-project.org/package=phoring)
+[![DOI](https://img.shields.io/badge/DOI-10.32614%2FCRAN.package.phoring-blue.svg)](https://doi.org/10.32614/CRAN.package.phoring)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 > **A Comprehensive Econometric Estimation and Diagnostic Suite for R**  
 > *Developed by **Md. Abid Siddique Emon**.*  
 > *Unified formula-based estimation, robust covariance structures, automated specification testing, economic interpretation, and publication-ready academic visualizations.*
@@ -288,7 +293,13 @@ word_table(m1, m2, m3,
 
 ## Installation
 
-You can install **phoring** directly from GitHub:
+Install the official released version directly from CRAN:
+
+```r
+install.packages("phoring")
+```
+
+Or install the development version from GitHub:
 
 ```r
 # install.packages("remotes")
@@ -303,3 +314,16 @@ remotes::install_github("abidsiddique/phoring")
 * **ORCID:** [0009-0007-6576-027X](https://orcid.org/0009-0007-6576-027X)  
 * **GitHub:** [https://github.com/abidsiddique](https://github.com/abidsiddique)  
 * **License:** MIT
+
+If you use `phoring` in academic research, papers, or dissertations, please cite it as:
+
+```bibtex
+@Manual{phoring2026,
+  title = {phoring: Unified Econometric Estimation, Specification Testing, and Diagnostics},
+  author = {Md. Abid Siddique Emon},
+  year = {2026},
+  note = {R package version 0.1.0},
+  url = {https://CRAN.R-project.org/package=phoring},
+  doi = {10.32614/CRAN.package.phoring}
+}
+```
